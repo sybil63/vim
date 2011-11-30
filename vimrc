@@ -10,7 +10,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " General Settings
-
+set nu                  " set line number 
 set nocompatible	" not compatible with the old-fashion vi mode
 set bs=2		" allow backspacing over everything in insert mode
 set history=50		" keep 50 lines of command line history
@@ -66,8 +66,9 @@ set tm=500
 
 " TAB setting{
    set expandtab        "replace <TAB> with spaces
-   set softtabstop=3 
-   set shiftwidth=3 
+   set softtabstop=4 
+   set shiftwidth=4 
+   set tabstop=4
 
    au FileType Makefile set noexpandtab
 "}      							

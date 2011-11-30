@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Library/Python/2.7/site-packages/tornado-2.1.1-py2.7.egg/tornado/test'
+let g:netrw_dirhist_2='/Users/sybil/.vim/autoload'
+let g:netrw_dirhist_3='/Users/sybil/.vim/colors'
+let g:netrw_dirhist_4='/Users/sybil/.vim/.git/branches'
+let g:netrw_dirhist_5='/Users/sybil/.vim/autoload'
