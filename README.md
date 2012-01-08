@@ -126,6 +126,7 @@ PLUGINS
 
 * [vimPHP](https://github.com/sybil63/phpVim): php syntax file
 
+* [phpcompletion](https://github.com/shawncplus/phpcomplete.vim): php omni completion
 Language specific supports
 --------------------------
 
