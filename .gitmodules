@@ -58,3 +58,6 @@
 [submodule "bundle/phpSyntax"]
 	path = bundle/phpSyntax
 	url = https://github.com/sybil63/phpVim
+[submodule "bundle/phpcomplete"]
+	path = bundle/phpcomplete
+	url = https://github.com/shawncplus/phpcomplete.vim
