@@ -124,6 +124,8 @@ PLUGINS
   Useful commands:
     * `F7` toggles the TagBar
 
+* [vimPHP](https://github.com/sybil63/phpVim): php syntax file
+
 Language specific supports
 --------------------------
 
