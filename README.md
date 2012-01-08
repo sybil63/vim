@@ -127,6 +127,8 @@ PLUGINS
 * [vimPHP](https://github.com/sybil63/phpVim): php syntax file
 
 * [phpcompletion](https://github.com/shawncplus/phpcomplete.vim): php omni completion
+
+* [molokai](https://github.com/tomasr/molokai): color style of textmate monokai
 Language specific supports
 --------------------------
 

@@ -39,7 +39,7 @@ if has("gui_running")	" GUI color and font settings
   colors moria
 else
 " terminal color settings
-  colors vgod
+  colors molokai
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
@@ -281,7 +281,6 @@ let g:tex_flavor='latex'
 " --- AutoClose - Inserts matching bracket, paren, brace or quote 
 " fixed the arrow key problems caused by AutoClose
 if !has("gui_running")	
-   set term=linux
    imap OA <ESC>ki
    imap OB <ESC>ji
    imap OC <ESC>li
