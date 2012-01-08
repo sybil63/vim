@@ -312,4 +312,5 @@ nnoremap <silent> <F7> :TagbarToggle<CR>
 " set focus to TagBar when opening it
 let g:tagbar_autofocus = 1
 
-
+" NERDTree
+map <F8> :NERDTreeToggle<CR>NERDTreeToggle
