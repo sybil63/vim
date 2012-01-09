@@ -62,7 +62,7 @@ set smarttab		" insert tabs on the start of a line according to context
 " disable sound on errors
 set noerrorbells
 set novisualbell
-set t_vb=
+set vb t_vb=
 set tm=500
 
 " TAB setting{
@@ -212,7 +212,19 @@ fun! IncludeGuard()
    call append( line("$"), "#endif // for #ifndef " . guard)
 endfun
 
-
+"F6: auto save, compile and run
+map <F6> :call CompileRun()<CR>
+fun! CompileRun()
+    exec "w"
+    if &filetype == "c"
+        exec "!gcc % -g -o %<"
+        exec "!.//%<"
+    elseif &filetype == "php"
+        exec "!php %"
+    elseif &filetype == "py"
+        exec "!python %"
+    endif
+endfun
 
 " Enable omni completion. (Ctrl-X Ctrl-O)
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
