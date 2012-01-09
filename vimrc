@@ -100,6 +100,9 @@ endfunction
 " C/C++ specific settings
 autocmd FileType c,cpp,cc  set cindent comments=sr:/*,mb:*,el:*/,:// cino=>s,e0,n0,f0,{0,}0,^-1s,:0,=s,g0,h1s,p2,t0,+2,(2,)20,*30
 
+"php specific settings
+autocmd FileType php let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
+
 "Restore cursor to file position in previous editing session
 set viminfo='10,\"100,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
@@ -300,6 +303,7 @@ let g:CommandTMaxHeight = 15
 
 " --- SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+"let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 
 " --- EasyMotion
 "let g:EasyMotion_leader_key = '<Leader>m' " default is <Leader>w
