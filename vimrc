@@ -249,6 +249,9 @@ endif
 autocmd BufNewFile,BufRead *.scss             set ft=scss.css
 autocmd BufNewFile,BufRead *.sass             set ft=sass.css
 
+"make html syntax work for mustache
+autocmd BufNewFile,BufRead *.mustache         set ft=mustache.html
+
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
