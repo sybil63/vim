@@ -223,6 +223,8 @@ fun! CompileRun()
         exec "!php %"
     elseif &filetype == "py"
         exec "!python %"
+    elseif &filetype == "sh"
+        exec "!sh %"
     endif
 endfun
 
