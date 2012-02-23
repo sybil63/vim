@@ -254,6 +254,8 @@ autocmd BufNewFile,BufRead *.sass             set ft=sass.css
 "make html syntax work for mustache
 autocmd BufNewFile,BufRead *.mustache         set ft=mustache.html
 
+"make php syntax work for ctp
+autocmd BufNewFile,BufRead *.ctp         set ft=ctp.php
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
