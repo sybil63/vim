@@ -145,6 +145,15 @@ PLUGINS
   Useful commands:
     * `,ff` format code
 
+* [css-less](https://github.com/groenewege/vim-less) : sytax for css less
+    * cssless: http://lesscss.org/
+    * not tested by me
+
+* [vim-javascript](https://github.com/pangloss/vim-javascript): javascript sytax and ctags blabla
+    * not tested by me
+
+* [vim-css3-syntax](git://github.com/hail2u/vim-css3-syntax.git): css3 syntax
+    * not tested by me
 
 
 Language specific supports

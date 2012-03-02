@@ -256,6 +256,7 @@ autocmd BufNewFile,BufRead *.mustache         set ft=mustache.html
 
 "make php syntax work for ctp
 autocmd BufNewFile,BufRead *.ctp         set ft=ctp.php
+
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
@@ -324,4 +325,8 @@ map <F8> :NERDTreeToggle<CR>
 " ---FuzzyFinder
 map <silent><S-j> :FufFile<CR>
 map <silent><Space> :FufBuffer<CR>
+
+" ---less css
+"nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
+"
 
