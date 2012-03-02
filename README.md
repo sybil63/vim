@@ -129,6 +129,14 @@ PLUGINS
 * [phpcompletion](https://github.com/shawncplus/phpcomplete.vim): php omni completion
 
 * [molokai](https://github.com/tomasr/molokai): color style of textmate monokai
+
+* [L9](https://github.com/sybil63/vim-L9): vim tool for FuzzyFinder
+
+* [FuzzyFinder](https://github.com/vim-scripts/FuzzyFinder):  Search the buffer/file/command/bookmark/tag
+
+  Useful commands:
+    * `Shfit-j` search file 
+
 Language specific supports
 --------------------------
 

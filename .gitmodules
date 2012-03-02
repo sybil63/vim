@@ -64,3 +64,9 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = https://github.com/tomasr/molokai
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/sybil63/vim-L9

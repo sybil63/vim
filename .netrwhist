@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/sybil/workspace/Yae/src/php/common'
 let g:netrw_dirhist_2='/home/sybil/workspace/Yae/src/php/manager'
 let g:netrw_dirhist_3='/home/sybil/test'
 let g:netrw_dirhist_4='/home/sybil/expriment/aa/app/Controller'
 let g:netrw_dirhist_5='/home/sybil/workspace/Yae/src/php/manager/app/Controller/scripts'
+let g:netrw_dirhist_6='/Users/sybil/.vim/bundle/FuzzyFinder/autoload'
