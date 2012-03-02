@@ -136,6 +136,16 @@ PLUGINS
 
   Useful commands:
     * `Shfit-j` search file 
+    * `space` search buffer 
+
+* [vim-markdown](https://github.com/plasticboy/vim-markdown/): vim syntax
+
+* [jsbeautify](https://github.com/vim-scripts/jsbeautify) : format javascript code
+
+  Useful commands:
+    * `,ff` format code
+
+
 
 Language specific supports
 --------------------------

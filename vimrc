@@ -322,4 +322,6 @@ let g:tagbar_autofocus = 1
 map <F8> :NERDTreeToggle<CR>
 
 " ---FuzzyFinder
-map <S-j> :FufFile<CR>
+map <silent><S-j> :FufFile<CR>
+map <silent><Space> :FufBuffer<CR>
+
