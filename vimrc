@@ -27,7 +27,6 @@ filetype plugin on    " Enable filetype-specific plugins
 " auto reload vimrc when editing it
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
-
 syntax on		" syntax highlight
 set hlsearch		" search highlighting
 
@@ -36,10 +35,11 @@ if has("gui_running")	" GUI color and font settings
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
-  colors moria
+  //colors moria
+  colors molokai
 else
 " terminal color settings
-  colors vgod
+  colors molokai
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
@@ -200,7 +200,7 @@ cmap cd. lcd %:p:h
 "--------------------------------------------------------------------------- 
 
 " Ctrl-[ jump out of the tag stack (undo Ctrl-])
-map <C-[> <ESC>:po<CR>
+"map <C-[> <ESC>:po<CR>
 
 " ,g generates the header guard
 map <leader>g :call IncludeGuard()<CR>
@@ -299,24 +299,6 @@ let g:tex_flavor='latex'
 
 "}
 
-
-" --- AutoClose - Inserts matching bracket, paren, brace or quote 
-" fixed the arrow key problems caused by AutoClose
-if !has("gui_running")	
-    set term=linux
-   imap OA <ESC>ki
-   imap OB <ESC>ji
-   imap OC <ESC>li
-   imap OD <ESC>hi
-
-   nmap OA k
-   nmap OB j
-   nmap OC l
-   nmap OD h
-endif
-
-
-
 " --- Command-T
 let g:CommandTMaxHeight = 15
 
@@ -337,7 +319,7 @@ nnoremap <silent> <F7> :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 " NERDTree
-map <F8> :NERDTreeToggle<CR>NERDTreeToggle
+map <F8> :NERDTreeToggle<CR>
 
 " ---FuzzyFinder
 map <S-j> :FufFile<CR>
