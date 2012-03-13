@@ -39,6 +39,7 @@ if has("gui_running")	" GUI color and font settings
   colors molokai
 else
 " terminal color settings
+  set t_Co=256          " 256 color mode
   colors molokai
 endif
 
@@ -257,6 +258,8 @@ autocmd BufNewFile,BufRead *.mustache         set ft=mustache.html
 "make php syntax work for ctp
 autocmd BufNewFile,BufRead *.ctp         set ft=ctp.php
 
+"make php syntax work for vm
+autocmd BufNewFile,BufRead *.vm         set ft=vm.html
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
