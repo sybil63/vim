@@ -155,6 +155,8 @@ PLUGINS
 
 * [syntastic](https://github.com/scrooloose/syntastic.git): syntax checking plugin that runs files through external syntax checkers and displays any resulting errors to the user
 
+* [vim-python](git://github.com/sybil63/vim-python.git): syntax for python
+
 Language specific supports
 --------------------------
 

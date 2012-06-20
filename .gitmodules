@@ -82,3 +82,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-python"]
+	path = bundle/vim-python
+	url = git://github.com/sybil63/vim-python.git
