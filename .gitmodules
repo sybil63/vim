@@ -79,3 +79,6 @@
 [submodule "bundle/vim-php"]
 	path = bundle/vim-php
 	url = https://github.com/sybil63/vim-php.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
