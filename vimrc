@@ -336,3 +336,6 @@ map <silent><Space> :FufBuffer<CR>
 "nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 "
 
+" ---syntastic
+"  show error list
+let g:syntastic_auto_loc_list = 1
