@@ -124,9 +124,7 @@ PLUGINS
   Useful commands:
     * `F7` toggles the TagBar
 
-* [vimPHP](https://github.com/sybil63/phpVim): php syntax file
-
-* [phpcompletion](https://github.com/shawncplus/phpcomplete.vim): php omni completion
+* [vim-php](https://github.com/sybil63/vim-php): syntax for php
 
 * [molokai](https://github.com/tomasr/molokai): color style of textmate monokai
 
