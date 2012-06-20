@@ -260,6 +260,9 @@ autocmd BufNewFile,BufRead *.ctp         set ft=ctp.php
 
 "make php syntax work for vm
 autocmd BufNewFile,BufRead *.vm         set ft=vm.html
+
+"make nginx syntax work for nginx.conf
+autocmd BufNewFile,BufRead *nginx.conf         set ft=nginx
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
