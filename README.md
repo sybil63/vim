@@ -8,11 +8,11 @@ ONE-STEP INSTALL
 
 Use curl (for Mac OS X):
 
-     curl -o - https://raw.github.com/sybil63/sybil-vim/master/auto-install.sh | sh
+     curl -o - https://raw.github.com/sybil63/vim/master/auto-install.sh | sh
 
 or wget (for most UNIX platforms):
 
-     wget -O - https://raw.github.com/sybil63/sybil-vim/master/auto-install.sh | sh
+     wget -O - https://raw.github.com/sybil63/vim/master/auto-install.sh | sh
 
 
 MANUALLY INSTALL
@@ -20,7 +20,7 @@ MANUALLY INSTALL
 
 1. Check out from github
 
-        git clone git://github.com/sybil63/sybil-vim.git ~/.vim
+        git clone git://github.com/sybil63/vim.git ~/.vim
         cd ~/.vim
         git submodule update --init
 
