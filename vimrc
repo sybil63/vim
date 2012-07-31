@@ -35,7 +35,7 @@ if has("gui_running")	" GUI color and font settings
   set background=dark 
   set t_Co=256          " 256 color mode
   set cursorline        " highlight current line
-  //colors moria
+  "colors moria
   colors molokai
 else
 " terminal color settings
@@ -324,6 +324,7 @@ hi link EasyMotionShade  Comment
 nnoremap <silent> <F7> :TagbarToggle<CR> 
 " set focus to TagBar when opening it
 let g:tagbar_autofocus = 1
+let g:tagbar_ctags_bin = "/usr/local/bin/ctags"
 
 " NERDTree
 map <F8> :NERDTreeToggle<CR>
@@ -339,3 +340,4 @@ map <silent><Space> :FufBuffer<CR>
 " ---syntastic
 "  show error list
 let g:syntastic_auto_loc_list = 1
+
