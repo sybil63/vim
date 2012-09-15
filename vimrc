@@ -18,6 +18,7 @@ set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
 set list		"list chars"
 set listchars=tab:>-,trail:-		"set tab like >---"
+set wildmode=longest,list
 
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
