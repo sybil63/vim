@@ -223,7 +223,7 @@ fun! CompileRun()
         exec "!.//%<"
     elseif &filetype == "php"
         exec "!php %"
-    elseif &filetype == "py"
+    elseif &filetype == "python"
         exec "!python %"
     elseif &filetype == "sh"
         exec "!sh %"
@@ -264,6 +264,13 @@ autocmd BufNewFile,BufRead *.vm         set ft=vm.html
 
 "make nginx syntax work for nginx.conf
 autocmd BufNewFile,BufRead *nginx.conf         set ft=nginx
+
+"make protoc syntax work
+autocmd BufNewFile,BufRead *.proto         set ft=proto
+
+"make markdown syntax work for md/mkd
+autocmd BufNewFile,BufRead *.md         set ft=markdown
+autocmd BufNewFile,BufRead *.mkd         set ft=markdown
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
 "--------------------------------------------------------------------------- 
