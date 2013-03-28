@@ -68,7 +68,7 @@ set vb t_vb=
 set tm=500
 
 " TAB setting{
-   set expandtab        "replace <TAB> with spaces
+   "set expandtab        "replace <TAB> with spaces
    set softtabstop=4 
    set shiftwidth=4 
    set tabstop=4
