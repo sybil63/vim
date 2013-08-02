@@ -153,8 +153,6 @@ PLUGINS
 * [vim-css3-syntax](git://github.com/hail2u/vim-css3-syntax.git): css3 syntax
     * not tested by me
 
-* [syntastic](https://github.com/scrooloose/syntastic.git): syntax checking plugin that runs files through external syntax checkers and displays any resulting errors to the user
-
 * [vim-python](git://github.com/sybil63/vim-python.git): syntax for python
 
 Language specific supports
